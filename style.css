@@ -1,0 +1,104 @@
+
+body  {
+    background: url("https://st.hzcdn.com/simgs/63e1d76b02fd007d_4-1721/modern-wallpaper.jpg");
+}
+
+/*header and nav bar*/
+header {
+  border-bottom: 2px solid #dbdbdb;
+  /*position: fixed; doesn't work well*/
+}
+
+header .row {
+  display: flex;  /*need to learn flex again*/
+  align-items: center; /*need to learn this again*/
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end; /*need to learn this again*/
+}
+
+nav > p {
+  cursor: pointer;
+  border: 0.5px solid #dbdbdb;
+  border-radius: 5px;
+  text-align: center;
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 10px;
+  background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+/*----------------------------------------*/
+
+/* Jumbotron */
+
+jumbotron {
+  display: flex;
+  align-items: left;
+  height: 350px;
+  border-bottom: 2px solid #dbdbdb;
+  background: url("http://media.istockphoto.com/photos/dough-recipe-ingredients-on-vintage-rural-wood-kitchen-table-picture-id480153625?s=2048x2048");
+/*  background-size: cover;
+  background-position: center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+jumbotron .container  {
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+
+jumbotron h2  {
+    font-size: 4em;
+}
+
+/*jumbotron h4   {
+    border-bottom: 2px solid white;
+}*/
+
+
+
+
+
+/*------------------------------------------*/
+
+/* main section */
+
+
+ 
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+ 
+section img  {
+    height: 400px;
+    width: 500px;
+    border: 1px solid #dbdbdb;
+}
+
+/*-----------------------------------------*/
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+  border-top: 2px solid #dbdbdb;
+  padding: 20px 0px 80px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
