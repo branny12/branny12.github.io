@@ -18,7 +18,7 @@ header nav {
   justify-content: flex-end; /*need to learn this again*/
 }
 
-nav > p {
+nav a p {
   cursor: pointer;
   border: 0.5px solid #dbdbdb;
   border-radius: 5px;
