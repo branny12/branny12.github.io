@@ -1,0 +1,107 @@
+body  {
+   background: url("https://st.hzcdn.com/simgs/63e1d76b02fd007d_4-1721/modern-wallpaper.jpg");
+    
+    /*background: url("https://s-media-cache-ak0.pinimg.com/originals/c3/d4/d0/c3d4d0072ceab167fbfe90e7d42d0068.jpg");*/
+}
+
+/*header and nav bar*/
+header {
+  border-bottom: 2px solid #dbdbdb;
+  /*position: fixed; doesn't work well*/
+}
+
+header .row {
+  display: flex;  /*need to learn flex again*/
+  align-items: center; /*need to learn this again*/
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end; /*need to learn this again*/
+}
+
+nav > p {
+  cursor: pointer;
+  border: 0.5px solid #dbdbdb;
+  border-radius: 5px;
+  text-align: center;
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 10px;
+  background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+/*----------------------------------------*/
+
+/* Jumbotron */
+
+jumbotron {
+  display: flex;
+  align-items: left;
+  height: 500px;
+  border-bottom: 2px solid #dbdbdb;
+  
+}
+
+jumbotron .container  {
+    color: white;
+    margin-top: 10px;
+    margint: auto;
+    
+}
+
+jumbotron h2  {
+    font-size: 4em;
+}
+
+/*jumbotron h4   {
+    border-bottom: 2px solid white;
+}*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
+
+/*------------------------------------------*/
+
+/* main section */
+
+
+ 
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+ 
+section img  {
+    height: 200px;
+    width:  220px;
+    border: 1px solid #dbdbdb;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+/*-----------------------------------------*/
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+  border-top: 2px solid #dbdbdb;
+  padding: 20px 0px 80px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}

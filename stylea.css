@@ -1,0 +1,102 @@
+
+body  {
+    background: url("https://st.hzcdn.com/simgs/63e1d76b02fd007d_4-1721/modern-wallpaper.jpg");
+}
+
+/*header and nav bar*/
+header {
+  border-bottom: 2px solid black;
+  /*position: fixed; doesn't work well*/
+}
+
+header .row {
+  display: flex;  /*need to learn flex again*/
+  align-items: center; /*need to learn this again*/
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end; /*need to learn this again*/
+}
+
+nav > p {
+  cursor: pointer;
+  border: 0.5px solid;
+  border-radius: 5px;
+  text-align: center;
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 10px;
+  background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+/*----------------------------------------*/
+
+/* Jumbotron */
+
+jumbotron {
+  display: flex;
+  align-items: left;
+  height: 850px;
+  background: url("http://c8.alamy.com/comp/EX2X5X/landscape-looking-towards-the-village-of-ireby-cumbria-england-uk-EX2X5X.jpg");
+/*  background-size: cover;
+  background-position: center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  clip: rect(200px,0px,0px,0px);
+  
+}
+
+jumbotron .container  {
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+
+jumbotron h2  {
+    font-size: 4em;
+}
+
+jumbotron h4   {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
+/*------------------------------------------*/
+
+h4 {
+    border-bottom: 2px solid black;
+}
+
+section p {
+    margin-top: 60px;
+}
+
+section img {
+    height: 400px;
+    width: 400px;
+}
+
+/*-----------------------------------------*/
+
+/* footer */
+footer {
+  margin-top: 20px;
+  clear:both;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+footer div {
+  display: flex;
+  align-items: right;
+}
